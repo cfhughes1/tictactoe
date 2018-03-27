@@ -47,5 +47,3 @@ def test_posting_new_game_data():
     r_after = requests.get(build_games_url() + new_game.id)
     r_after.raise_for_status()
     assert pickle.loads(json.loads(r_after.text)["data"]).player1 == "wade"
-    
-
