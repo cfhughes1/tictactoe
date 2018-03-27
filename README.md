@@ -32,6 +32,11 @@ http://localhost:8888
 4. Contact christinafayehughes2@gmail.com and ask her to finish her code
    so that you can play. :)
 
+# To test #
+Run the following command:
+
+py.test
+
 # API Documentation #
 Note: all Game objects come pickled and should be unpickled with pickle.loads(myGameObject) for consumption. See code for further documentation.
 
